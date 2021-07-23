@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+}
+section {
+	display: grid;
+	grid-template-columns: repeat(4, 200px);
+	grid-template-areas: "bv bgt bgt o"
+						 "bv t th f"
+						 "fi s bgb bgb";
+	width: 800px;
+	margin: auto;
+}
+.big-vertical {
+	grid-area: bv;
+	background-image: url(https://i.pinimg.com/originals/e5/cb/00/e5cb00b701bb2217be8d3abb56d7fb66.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 200px;
+	height: 400px;
+}
+.big-corizont-top {
+	grid-area: bgt;
+	background-image: url(https://www.hellopeagreen.com/wp-content/uploads/2018/05/VICTOR-CHENG_instagram-1440x960.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 200px;
+}
+.one {
+	grid-area: o;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSily2qX9HFwmWibNeHlASLow1AoV5Dpv4xgTt4gatI4eUPUlQ_&usqp=CAU);
+	background-size: cover;
+	background-position: center;
+	width: 200px;
+	height: 200px;
+}
+.two {
+	grid-area: t;
+	background-image: url(https://demiart.ru/forum/uploads16/post-1509763-1430758856.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 200px;
+	height: 200px;
+}
+.three {
+	grid-area: th;
+	background-image: url(https://i.pinimg.com/originals/af/39/02/af39027ae04fd66cd3cf45017fef607f.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 200px;
+	height: 200px;
+}
+.four {
+	grid-area: f;
+	background-image: url(https://www.fisheyemagazine.fr/wp-content/uploads/2019/06/stocktoon-instagram.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 200px;
+	height: 200px;
+}
+.five {
+	grid-area: fi;
+	background-image: url(https://uip.me/wp-content/uploads/2015/02/IMG_4761-630x630.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 200px;
+	height: 200px;
+}
+.six {
+	grid-area: s;
+	background-image: url(https://i.pinimg.com/originals/af/3b/8f/af3b8f9da02b9a05f9d2a19395edbdec.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 200px;
+	height: 200px;
+}
+.big-corizont-bottom {
+	grid-area: bgb;
+	background-image: url(https://media.istockphoto.com/vectors/instagram-highlight-cover-big-set-minimal-marble-texture-background-vector-id1191904495?b=1&k=6&m=1191904495&s=170667a&h=j7aV0BW1elxbUBPCsCYYrw-vcHlLuSt-Qnm_UxHQIV0=);
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 200px;
+}

@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	color: white;
+}
+main {
+	display: grid;
+	grid-template-columns: repeat(16, 1fr);
+}
+aside {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 16;
+	background-color: #545353;
+}
+.paletka {
+	font-size: 2em;
+	color: #696490;
+	padding-top: 30px;
+	padding-left: 55px;
+}
+.paletka:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+
+.blok-one {
+	grid-column-start: 5;
+	grid-column-end: 13;
+	grid-row-start: 1;
+	grid-row-end: 5;
+	background-color: orange;
+	font-size: 1.5em;
+	padding: 35px;
+	box-sizing: border-box;
+}
+.blok-two {
+	grid-column-start: 13;
+	grid-column-end: 17;
+	grid-row-start: 1;
+	grid-row-end: 5;
+	background-color: blue;
+	font-size: 1.5em;
+	padding: 35px;
+	box-sizing: border-box;
+}
+
+
+.blok-three {
+	grid-column-start: 5;
+	grid-column-end: 11;
+	grid-row-start: 5;
+	grid-row-end: 10;
+	background-color: green;
+	font-size: 1.5em;
+	padding: 30px;
+	box-sizing: border-box;
+}
+.blok-four {
+	grid-column-start: 11;
+	grid-column-end: 17;
+	grid-row-start: 5;
+	grid-row-end: 10;
+	background-color: yellow;
+	font-size: 1.5em;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+
+.blok-five {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 10;
+	grid-row-end: 16;
+	background-color: pink;
+	font-size: 1.5em;
+	padding: 30px;
+	box-sizing: border-box;
+}
+.blok-six {
+	grid-column-start: 9;
+	grid-column-end: 13;
+	grid-row-start: 10;
+	grid-row-end: 16;
+	background-color: red;
+	font-size: 1.5em;
+	padding: 30px;
+	box-sizing: border-box;
+}
+.blok-seven {
+	grid-column-start: 13;
+	grid-column-end: 17;
+	grid-row-start: 10;
+	grid-row-end: 16;
+	background-color: purple;
+	font-size: 1.5em;
+	padding: 30px;
+	box-sizing: border-box;
+}
